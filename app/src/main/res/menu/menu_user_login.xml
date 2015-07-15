@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.josevargas.mysql3.User_login">
+
+    <item android:id="@+id/menu_facturacion"
+        android:title="Facturacion"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_añadir_productos"
+        android:title="Configuracion de productos"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_salir"
+        android:title="Salir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
